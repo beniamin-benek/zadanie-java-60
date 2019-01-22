@@ -12,6 +12,7 @@ public class Main {
         System.out.print("Podaj drugą liczbę: ");
         int b = scanner.nextInt();
         scanner.nextLine();
+        scanner.close();
 
         if (a > b) {
             int sum = a + b;
